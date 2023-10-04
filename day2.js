@@ -30,7 +30,17 @@
 // {
 //     console.log(students[y]);
 // }
-let person={fname:'ali',Lname:'khan',Mname:'sardar'};
-for(let x in person){
-    alert(x+""+person[x])
-}
+// let person={fname:'ali',Lname:'khan',Mname:'sardar'};
+// for(let x in person){
+//     alert(x+""+person[x])
+// }
+
+// let i=11;
+// while(i<10){
+//     alert(i++*2)
+// }
+// let=11;
+// for(let i=1;i<f;i++)
+// {
+//    alert(4*i) 
+// }
