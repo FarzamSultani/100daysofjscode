@@ -44,3 +44,11 @@
 // {
 //    alert(4*i) 
 // }
+// let now=getFullYear();
+// alert(now)
+let user={
+    fname:"Jhon"
+
+};
+alert("fsname" in user )
+
