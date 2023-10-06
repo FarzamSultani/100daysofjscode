@@ -46,9 +46,18 @@
 // }
 // let now=getFullYear();
 // alert(now)
-let user={
-    fname:"Jhon"
+// let user={
+//     fname:"Jhon"
 
-};
-alert("fsname" in user )
-
+// };
+// alert("fsname" in user )
+let coder={
+    name:"farzam",
+    Fname:"Durmhammad",
+    profission:"Hacker",
+}
+let f;
+for(f in coder){
+    alert(f);
+    alert(coder[f]);
+}
