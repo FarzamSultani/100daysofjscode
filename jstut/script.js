@@ -93,21 +93,27 @@
 // console.log(++a)
 // console.log(--a)
 //////////////////////////////////If else statments/////////////////////////
-let a = prompt("HI there how old Are you");
+// let a = prompt("HI there how old Are you");
 
-if (a=0){
-    alert("INVILED number");
+// if (a=0){
+//     alert("INVILED number");
+// }
+// else if(a<9){
+//     alert("You are a kid and you cannot even think of driving");
+//   }
+// else if(a<18 && a>9) {
+// alert("your Just a kid beat it now");
+// }
+// else 
+// {
+//     alert ("Welcome to the Real world");
+// };
+let b = prompt("Are you a hacker")
+if (b=='yes'){
+    alert('Welcome to our community');
 }
-else if(a<9){
-    alert("You are a kid and you cannot even think of driving");
-  }
-else if(a<18 && a>9) {
-alert("your Just a kid beat it now");
-}
-else 
+else
 {
-    alert ("Welcome to the Real world");
+    alert("Fuck off kid")
 };
-
-
 
