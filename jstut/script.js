@@ -54,5 +54,56 @@
 
 // console.log("You can", (a<18? "not drive" :"drive"))
 
+/////////////////////////////////////////////////Practices//////////////////////////////////////////////////////
+// const name = "Farzam";
+// const Hobby =" programming";
+
+// console.log("My name is " +name+ "and my best hobby is" +Hobby);
+
+// {
+//     const age = 23;
+//     const birth = 1388;
+//     console.log("I am "+ age + "old and i born in " +birth);
+// }
+
+////working with objects //////////
+
+// const Bio = {
+//     Name: "farzam",
+//     age: 23,
+//     I_love_coding: true,
+//     secrets:undefined,
+// };
+// alert(Bio["Name"]);
+// alert(Bio.age);
+// alert(Bio["secrets"]);
+
+///////////////////////////////
+console.log("opreators");
+let a = 10;
+let b = 20;
+
+console.log(a + b)
+console.log(a - b)
+console.log(a % b)
+console.log(a ** b)
+console.log(a / b)
+console.log(a--)
+console.log(a++)
+console.log(++a)
+console.log(--a)
+// let a = 10;
+// let b = 4;
+// console.log("a + b = ", a + b)
+// console.log("a - b = ", a - b)
+// console.log("a / b = ", a / b)
+// console.log("a ** b = ", a ** b)
+// console.log("a % b = ", a % b)
+// console.log("++a = ", ++a)
+// console.log("a++ = ", a++)
+// console.log("--a = ", --a)
+// console.log("a-- = ", a--)
+// console.log("a = ", a)
+// console.log("a-- = ", a--)
 
 
