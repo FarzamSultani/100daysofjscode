@@ -79,31 +79,35 @@
 // alert(Bio["secrets"]);
 
 ///////////////////////////////
-console.log("opreators");
-let a = 10;
-let b = 20;
-
-console.log(a + b)
-console.log(a - b)
-console.log(a % b)
-console.log(a ** b)
-console.log(a / b)
-console.log(a--)
-console.log(a++)
-console.log(++a)
-console.log(--a)
+// console.log("opreators");
 // let a = 10;
-// let b = 4;
-// console.log("a + b = ", a + b)
-// console.log("a - b = ", a - b)
-// console.log("a / b = ", a / b)
-// console.log("a ** b = ", a ** b)
-// console.log("a % b = ", a % b)
-// console.log("++a = ", ++a)
-// console.log("a++ = ", a++)
-// console.log("--a = ", --a)
-// console.log("a-- = ", a--)
-// console.log("a = ", a)
-// console.log("a-- = ", a--)
+// let b = 20;
+
+// console.log(a + b)
+// console.log(a - b)
+// console.log(a % b)
+// console.log(a ** b)
+// console.log(a / b)
+// console.log(a--)
+// console.log(a++)
+// console.log(++a)
+// console.log(--a)
+//////////////////////////////////If else statments/////////////////////////
+let a = prompt("HI there how old Are you");
+
+if (a=0){
+    alert("INVILED number");
+}
+else if(a<9){
+    alert("You are a kid and you cannot even think of driving");
+  }
+else if(a<18 && a>9) {
+alert("your Just a kid beat it now");
+}
+else 
+{
+    alert ("Welcome to the Real world");
+};
+
 
 
