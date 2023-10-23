@@ -122,10 +122,37 @@
 // alert("Fuck off pussy");
 
 ////////////////////loops in Java script//////////////////////
-let n = prompt("write a number ");
-let sum = 0;
-for (let i=0;i<n;i++)
+// let a = prompt("just add some numbers to repeat");
+// for(let i = 0;i<a;i++)
+// {
+//     console.log(`${i} x 2 =${i*2}`);
+// }
+
+// let a = prompt("which table do you want to get");
+// let p = prompt("just say the number");
+// for(let i = 1;i<10;i++)
+// {
+// for(let j = 0;j<p;j++)
+//     {
+//         console.log(`${i} x ${j}=${i*j}` );
+//     }
+// };
+// let num = prompt("Enter a number:");
+// let table = "";
+// for (let i = 1; i <= 10; i++) {
+//   table += `${num} x ${i} = ${num * i}\n`;
+//   console.log(table);
+// }
+let student =
 {
-    sum += (i+1);
-};
-console.log("Sum of first " + n + " natural numbers is " + sum)
+    name:"Ali",
+    age:25,
+    grade:"B",
+    hobbies:"game,Music",
+
+}
+for(let x in student)
+{
+    console.log(student[x])
+}
+
