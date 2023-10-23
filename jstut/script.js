@@ -108,12 +108,24 @@
 // {
 //     alert ("Welcome to the Real world");
 // };
-let b = prompt("Are you a hacker")
-if (b=='yes'){
-    alert('Welcome to our community');
-}
-else
-{
-    alert("Fuck off kid")
-};
+// let b = prompt("Are you a hacker")
+// if (b=='yes'){
+//     alert('Welcome to our community');
+// }
+// else
+// {
+//     alert("Fuck off kid")
+// };
+// let a = prompt("Are you serious");
+// a=='yes' ?
+// alert("welcome to the top 1 %"):
+// alert("Fuck off pussy");
 
+////////////////////loops in Java script//////////////////////
+let n = prompt("write a number ");
+let sum = 0;
+for (let i=0;i<n;i++)
+{
+    sum += (i+1);
+};
+console.log("Sum of first " + n + " natural numbers is " + sum)
