@@ -143,16 +143,26 @@
 //   table += `${num} x ${i} = ${num * i}\n`;
 //   console.log(table);
 // }
-let student =
-{
-    name:"Ali",
-    age:25,
-    grade:"B",
-    hobbies:"game,Music",
+// let student =
+// {
+//     name:"Ali",
+//     age:25,
+//     grade:"B",
+//     hobbies:"game,Music",
 
-}
-for(let x in student)
-{
-    console.log(student[x])
-}
+// }
+// for(let x in student)
+// {
+//     console.log(student[x])
+// }
+// /////for each is here baby
+let fruit =["apple" , "orange" , " Pear"];
+fruit.forEach( (i)=>{
+console.log(i);
+});
+
+let students =["Ahmad","Sami" , "Hadi"];
+students.forEach((names)=>{
+    console.log(names);
+} );
 
