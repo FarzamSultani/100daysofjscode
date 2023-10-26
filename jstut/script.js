@@ -156,13 +156,28 @@
 //     console.log(student[x])
 // }
 // /////for each is here baby
-let fruit =["apple" , "orange" , " Pear"];
-fruit.forEach( (i)=>{
-console.log(i);
-});
+// let fruit =["apple" , "orange" , " Pear"];
+// fruit.forEach( (i)=>{
+// console.log(i);
+// });
 
-let students =["Ahmad","Sami" , "Hadi"];
-students.forEach((names)=>{
-    console.log(names);
-} );
+// let students =["Ahmad","Sami" , "Hadi"];
+// students.forEach((names)=>{
+//     console.log(names);
+// } );
 
+////////////working with string methods////
+// let name="Farzam";
+// console.log(name.length);
+// console.log(name.toLowerCase());
+// console.log(name.toUpperCase());
+// console.log(name.slice(2,4));
+// console.log(name.indexOf('z'));
+// console.log(name.trim());
+// console.log(name.replace("Farzam","Adib"));
+////////////////////Arrays Baby///////////////////////////////////
+let arr=[1,2,3,4,5];
+console.log(arr)
+let fruit=["Apple","Pear","peach"];
+fruit[3] = "orange";
+console.log(fruit);
