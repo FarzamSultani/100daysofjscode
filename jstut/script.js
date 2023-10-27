@@ -176,8 +176,9 @@
 // console.log(name.trim());
 // console.log(name.replace("Farzam","Adib"));
 ////////////////////Arrays Baby///////////////////////////////////
-let arr=[1,2,3,4,5];
-console.log(arr)
-let fruit=["Apple","Pear","peach"];
-fruit[3] = "orange";
-console.log(fruit);
+// let arr=[1,2,3,4,5];
+// console.log(arr)
+// let fruit=["Apple","Pear","peach"];
+// fruit[3] = "orange";
+// console.log(fruit);
+
