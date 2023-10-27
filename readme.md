@@ -1,1 +1,1 @@
-# java script Training  
+# Making a clock project
