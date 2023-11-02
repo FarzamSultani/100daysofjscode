@@ -51,13 +51,52 @@
 
 // };
 // alert("fsname" in user )
-let coder={
-    name:"farzam",
-    Fname:"Durmhammad",
-    profission:"Hacker",
-}
-let f;
-for(f in coder){
-    alert(f);
-    alert(coder[f]);
-}
+// let coder={
+//     name:"farzam",
+//     Fname:"Durmhammad",
+//     profission:"Hacker",
+// }
+// let f;
+// for(f in coder){
+//     alert(f);
+//     alert(coder[f]);
+// }
+
+///////////////////working on arrow Functions//////////////////
+
+// let sum=(a,b)=>a+b;
+// console.log(sum(3,2));
+
+// let numbers = [1,2,3,4,5,6,7,8];
+// let Evennumbers=numbers.filter(num => num%2===0);
+// console.log(Evennumbers);
+// let name =["Adib","Sahar","Jawad"] ;
+// name.push("they are great");
+// console.log(name);
+
+/////////////////////////working on map , filter and reduce/////////
+// let num=[1,2,3,4,5];
+// let news =num.map(i => i * 2);
+// console.log(news);
+// let num = [1,2,3,4,5,6,7,8];
+// let min=num.map(i => i - 3);
+// console.log(min);
+// let table = [1,2,3,4,5,6,7,8,9,10];
+// let mid=table.map(i => i* 2);
+// console.log(mid);
+
+// for(let i=0; i<=10 ; i++)
+// {
+// console.log(`2 x ${i}=${i*2}`);
+// };
+// let num =[2,3,4,5,6,7,8];
+// let sum=num.map( i => i*2);
+// console.log(sum);
+let people =[
+    {name: "Alice", age: 20},
+    {name: "Farzam", age:21},
+    {name: "Mohammad",age :22},
+    {name : "Sardar" , age :44},
+];
+let peoplewithage=people.map(person => ({name:person.name,age:person.age}));
+console.log(peoplewithage);
