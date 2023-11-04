@@ -92,11 +92,38 @@
 // let num =[2,3,4,5,6,7,8];
 // let sum=num.map( i => i*2);
 // console.log(sum);
-let people =[
-    {name: "Alice", age: 20},
-    {name: "Farzam", age:21},
-    {name: "Mohammad",age :22},
-    {name : "Sardar" , age :44},
-];
-let peoplewithage=people.map(person => ({name:person.name,age:person.age}));
-console.log(peoplewithage);
+// let people =[
+// {name: "Alice", age: 20},
+// {name: "Farzam", age:21},
+// {name: "Mohammad",age :22},
+// {name : "Sardar" , age :44},
+// ];
+// let peoplewithage=people.map(person => ({name:person.name,age:person.age}));
+// console.log(peoplewithage);
+// let m= new Map();
+// m.set('Name','Ahmad')
+// .set('last','Sultani');
+// for(let i of m.keys() ){
+//     console.log(i);
+// }
+// const fruit = ['Apple','Pear','Peach','Avacado'];
+// fruit.forEach(fruit => console.warn(fruit));
+// let sum = 0;
+// let numbers=[2,3,4,4,5,66];
+// numbers.forEach(numbers => sum=sum+numbers)
+// console.log(sum);
+///////////////////////////////////Console Objects////////////////////\
+// let person= "Ahamd";
+// console.log(person);
+// console.warn(person);
+// console.error(person);
+
+// let x = 6;
+// console.assert(x==5, "error x is not equal to 5")
+// console.assert(x==6, "error x is nott equal to 5")
+console.time("Time taken");
+let x = 5;
+let y = 6;
+let z = x + y;
+console.timeEnd("Time taken");
+
