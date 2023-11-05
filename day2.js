@@ -121,9 +121,23 @@
 // let x = 6;
 // console.assert(x==5, "error x is not equal to 5")
 // console.assert(x==6, "error x is nott equal to 5")
-console.time("Time taken");
-let x = 5;
-let y = 6;
-let z = x + y;
-console.timeEnd("Time taken");
+// console.time("Time taken");
+// let x = 5;
+// let y = 6;
+// let z = x + y;
+// console.timeEnd("Time taken");
+///////////////////////////////finally DOM/////////////
+// // document.body.style.backgroundColor = "red";
+// document.body.style.color="Blue";
 
+// let color = prompt("Enter a color that you love");
+// if (color=='night')
+// {
+//     document.body.style.backgroundColor="grey";
+// }
+// else if(color=='Day')
+// {
+//     document.body.style.backgroundColor="white";
+// };
+// let age = prompt("Please enter your age that i can identefy are you old enough");
+document.write("Hello there")
