@@ -140,4 +140,16 @@
 //     document.body.style.backgroundColor="white";
 // };
 // let age = prompt("Please enter your age that i can identefy are you old enough");
-document.write("Hello there")
+// document.write("Hello there");
+///////////////////////////////////serching for DOM////////////
+// let home =document.getElementsById('ask');
+// console.log(home)
+////////////////////////////////////////matches, closets, contains//////////////////////
+// const message = document.querySelector('.message');
+// if (message.matches('.message')) {
+//   console.log('The element matches the selector');
+// } else {
+//   console.log('The element does not match the selector');
+// }
+///////////////////////////////working on serching DOM/////////
+document.querySelector('div').firstElementChild.color= "Green";
