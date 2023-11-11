@@ -152,4 +152,6 @@
 //   console.log('The element does not match the selector');
 // }
 ///////////////////////////////working on serching DOM/////////
-document.querySelector('div').firstElementChild.color= "Green";
+let change = () =>{
+    document.querySelector("li")[3].style.display="inline";
+}
