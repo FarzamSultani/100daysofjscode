@@ -179,7 +179,15 @@
 /////////////////////inner and outer HTML//////////////////////
 // console.dir(document.getElementsByTagName("span")[0]);
 
-function sec(){
-  document.getElementsByTagName("H1")[0].hidden=true;
+// function sec(){
+//   document.getElementsByTagName("H1")[0].hidden=true;
+// }
+// document.getElementsByClassName("secret")[0].addEventListener("click",sec);
+//////////////////////Html Attirbutes/////
+let x=document.getElementById("se");
+x.setAttribute("hidden","true");
+function f(){
+  x.removeAttribute("hidden");
 }
-document.getElementsByClassName("secret")[0].addEventListener("click",sec);
+document.getElementsByClassName("secret")[0].addEventListener("click",f);
+
