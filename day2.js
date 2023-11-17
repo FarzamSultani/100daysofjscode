@@ -184,10 +184,18 @@
 // }
 // document.getElementsByClassName("secret")[0].addEventListener("click",sec);
 //////////////////////Html Attirbutes/////
-let x=document.getElementById("se");
-x.setAttribute("hidden","true");
-function f(){
-  x.removeAttribute("hidden");
-}
-document.getElementsByClassName("secret")[0].addEventListener("click",f);
-
+// let x=document.getElementById("se");
+// x.setAttribute("hidden","true");
+// function f(){
+//   x.removeAttribute("hidden");
+// }
+// document.getElementsByClassName("secret")[0].addEventListener("click",f);
+////////////////working on HTML Insertion method////////////
+// let a=document.getElementsByTagName('div')[0];
+// a.innerHTML=a.innerHTML + "Hello world";
+// let div=document.createElement('div');
+// div.innerHTML="<h3> I love you </h3>";
+// a.before(div);
+// let c =document.getElementsByTagName('p')[2];
+// c.innerHTML=c.innerHTML + "Hello i am an angle";
+// c.before(p)
