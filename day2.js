@@ -191,11 +191,41 @@
 // }
 // document.getElementsByClassName("secret")[0].addEventListener("click",f);
 ////////////////working on HTML Insertion method////////////
-// let a=document.getElementsByTagName('div')[0];
-// a.innerHTML=a.innerHTML + "Hello world";
+// let a= document.getElementsByTagName('div')[0];
 // let div=document.createElement('div');
-// div.innerHTML="<h3> I love you </h3>";
-// a.before(div);
-// let c =document.getElementsByTagName('p')[2];
-// c.innerHTML=c.innerHTML + "Hello i am an angle";
-// c.before(p)
+// div.innerHTML='<h6>Hello World</h6>';
+// a.after(div);
+/////////////////////////Insert Adjacent////
+// let a = document.getElementById('second');
+// a.insertAdjacentHTML('afterbegin','<div class="test">beforebegin</div>'); 
+////////////////////////////working on changing class 
+// // let f= document.getElementById('first')
+// // f.classList.remove('yellow');
+// console.log(first.classList.contains('yellow'));
+
+////////////mini project Joke teller
+// let jokesArray=[	"Why do programmers prefer dark mode? Because light attracts bugs.",
+// "Why do programmers hate nature? It has too many bugs.",
+// "Why did the programmer quit his job? Because he didn't get arrays.",
+// "Why did the JavaScript developer wear glasses? Because he didn't C#.",
+// "Why did the programmer go broke? Because he used up all his cache.",
+// "Why do programmers like UNIX? Because it's user-friendly, it's just very particular about who its friends are.",
+// "Why did the programmer go to the doctor? Because he had a code injection.",
+// "Why did the programmer get stuck in the shower? Because the instructions on the shampoo bottle said: lather, rinse, repeat.",
+// "Why don't programmers like nature? It has too many bugs.",
+// "Why did the programmer use Vim? Because he didn't like anything that was too mainstream.",
+// "Why did the programmer call his mother? Because he wanted to hear her byte.",];
+// let jokebtn=document.getElementById("jokeBtn");
+// let joke=document.getElementById("joke");
+// jokebtn.addEventListener("click",function(){
+//     let randomIndex= Math.floor(Math.random() * jokesArray.length);
+//     let randomjoke = jokesArray[randomIndex];
+//     joke.innerText = randomjoke;
+// });
+///////////creating a clock
+let a = new Date();
+let h= a.getHours();
+let m=a.getMinutes();
+let s=a.getSeconds();
+let d=a.getDate();
+console.log(h,m,s,d);
