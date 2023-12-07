@@ -223,9 +223,30 @@
 //     joke.innerText = randomjoke;
 // });
 ///////////creating a clock
-let a = new Date();
-let h= a.getHours();
-let m=a.getMinutes();
-let s=a.getSeconds();
-let d=a.getDate();
-console.log(h,m,s,d);
+// let a = new Date();
+// let h= a.getHours();
+// let m=a.getMinutes();
+// let s=a.getSeconds();
+// let d=a.getDate();.. 
+// console.log(h,m,s,d);
+///////////////////Set time out and set interval
+// setTimeout(()=>{
+//     console.log("Hello there");
+// },3000)
+// const timeout = setTimeout(greeting,3000,"hi");
+// if(false){
+//     clearTimeout(timeout);
+// }
+// function greeting(x) {
+//     console.log(x);
+// }
+// setInterval(()=> {
+//     console.log("I love you")
+// },2000);
+// let counter = 0;
+// setInterval (count,1000);
+// function count () {
+// console.log(counter++);
+// }
+
+
