@@ -249,19 +249,45 @@
 // console.log(counter++);
 // }
 //////////////promises
-let p = new Promise((resolve, reject) => {
-    let a= 1+4;
-    if(a==2)
-    {
-        resolve('success');
+// let p = new Promise((resolve, reject) => {
+//     let a= 1+4;
+//     if(a==2)
+//     {
+//         resolve('success');
+//     }
+//     else{
+//     reject('FUCK')
+//     }
+// })
+// p.then((message)=>{
+//     console.log('It was great and sucessed'+message)
+// }).catch((message)=>{
+//     console.log('It was great and its failed with sin' +message)
+// });
+const seeing_her=false;
+const not_seeing_her=false;
+p = new Promise((resolve, reject) => {
+    if(seeing_her==true){
+        resolve('Congrats you got there and saw her but if they catch you they kill you')
     }
-    else{
-    reject('FUCK')
+    else if(not_seeing_her == true){
+    reject('You are saved and congrats of being alive')
+    }
+    else if (not_seeing_her && seeing_her == false)
+    { 
+        resolve('You are great now your all focus is in coding')
+    }
+    else
+    {
+        throw 'Error: You should only use this for boolean values';
     }
 })
 p.then((message)=>{
-    console.log('It was great and sucessed'+message)
-}).catch((message)=>{
-    console.log('It was great and its failed with sin' +message)
+    console.log('It was a Sucess'+message)
+}).then((message)=>{
+    console.log('You are the best'+message)
+})
+.catch((message)=>{
+    console.log('Congrats you are saved'+message)
 });
 
