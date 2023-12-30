@@ -248,5 +248,20 @@
 // function count () {
 // console.log(counter++);
 // }
-
+//////////////promises
+let p = new Promise((resolve, reject) => {
+    let a= 1+4;
+    if(a==2)
+    {
+        resolve('success');
+    }
+    else{
+    reject('FUCK')
+    }
+})
+p.then((message)=>{
+    console.log('It was great and sucessed'+message)
+}).catch((message)=>{
+    console.log('It was great and its failed with sin' +message)
+});
 
