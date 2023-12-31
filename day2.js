@@ -264,30 +264,53 @@
 // }).catch((message)=>{
 //     console.log('It was great and its failed with sin' +message)
 // });
-const seeing_her=false;
-const not_seeing_her=false;
-p = new Promise((resolve, reject) => {
-    if(seeing_her==true){
-        resolve('Congrats you got there and saw her but if they catch you they kill you')
-    }
-    else if(not_seeing_her == true){
-    reject('You are saved and congrats of being alive')
-    }
-    else if (not_seeing_her && seeing_her == false)
-    { 
-        resolve('You are great now your all focus is in coding')
-    }
-    else
-    {
-        throw 'Error: You should only use this for boolean values';
-    }
+// const seeing_her=false;
+// const not_seeing_her=false;
+// p = new Promise((resolve, reject) => {
+//     if(seeing_her==true){
+//         resolve('Congrats you got there and saw her but if they catch you they kill you')
+//     }
+//     else if(not_seeing_her == true){
+//     reject('You are saved and congrats of being alive')
+//     }
+//     else if (not_seeing_her && seeing_her == false)
+//     { 
+//         resolve('You are great now your all focus is in coding')
+//     }
+//     else
+//     {
+//         throw 'Error: You should only use this for boolean values';
+//     }
+// })
+// p.then((message)=>{
+//     console.log('It was a Sucess'+message)
+// }).then((message)=>{
+//     console.log('You are the best'+message)
+// })
+// .catch((message)=>{
+//     console.log('Congrats you are saved'+message)
+// });
+///Different method of promises///////////
+//First Finally promise
+ // const p1 = new Promise((resolve, reject) => {
+//   setTimeout(() => {
+//     resolve('suck it')
+//   }, 10000);  
+// })
+// p1.finally(()=>{
+//     console.log("This will be executed")
+// });
+///////////promise all
+const p1= new Promise((resolve)=> {
+    resolve('I need to be best in coding')
 })
-p.then((message)=>{
-    console.log('It was a Sucess'+message)
-}).then((message)=>{
-    console.log('You are the best'+message)
-})
-.catch((message)=>{
-    console.log('Congrats you are saved'+message)
+const p2= new Promise((resolve)=>{
+    resolve('You must be a milieunoir in the future')
 });
-
+const p3= new Promise((resolve)=>{
+    resolve('You must not give up')
+});
+Promise.all([p1,p2,p3]).then((values)=>
+{
+    console.log(values);
+});
