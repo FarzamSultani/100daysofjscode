@@ -315,26 +315,46 @@
 //     console.log(values);
 // });
 //////////////another example
-const hasmeeting =false;
-const meeting = new Promise((resolve,reject)=>{
-if(!meeting)
-{
-    const meetingdetail= {
-        name:'CEO',
-        location:'ZOOM',
-        time:'1:00PM'
+// const hasmeeting =true;
+// const meeting = new Promise((resolve,reject)=>{
+// if(!hasmeeting)
+// {
+//     const meetingdetail= {
+//         name:'CEO',
+//         location:'ZOOM',
+//         time:'1:00PM'
 
-    }
-    resolve(meetingdetail);
-}
-else{
-    reject(new Error('Meeting is already Done'));
-}
-}) ;
-meeting.then(res => {
-    //here will be the resolve
-    console.log('Meeting scheduled')
-    console.log(res);
-}).catch(err=>{
-    console.log(err.message);
-});
+//     }
+//     resolve(meetingdetail);
+// }
+// else{
+//     reject(new Error('Meeting is already Done'))
+// }
+// }) ;
+// meeting.then(res => {
+//     //here will be the resolve
+//     console.log('Meeting scheduled')
+//     console.log(res);
+// }).catch(err=>{
+//     console.log(err.message);
+//     console.log('Your fucking late');
+// });
+// const playgame = false;
+// const game= new Promise((resolve,reject)=>{
+//     if (playgame==true){
+//         const intro={
+//             introduction:'Hello Farzam welcome to Love Game'
+//             ,rules:'Try not to fall in Love make your heart stone'
+//             ,End:'Good Luck'
+            
+//         }
+//         resolve(intro);
+//     }else{
+//         reject(new Error('You Dont fall and play this game OK!'))
+//     };
+// })
+// game.then(res=>{
+//     console.log(res);
+// }).catch(err=>{
+//     console.log(err.message);
+// })
