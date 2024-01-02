@@ -301,16 +301,40 @@
 //     console.log("This will be executed")
 // });
 ///////////promise all
-const p1= new Promise((resolve)=> {
-    resolve('I need to be best in coding')
-})
-const p2= new Promise((resolve)=>{
-    resolve('You must be a milieunoir in the future')
-});
-const p3= new Promise((resolve)=>{
-    resolve('You must not give up')
-});
-Promise.all([p1,p2,p3]).then((values)=>
+// const p1= new Promise((resolve)=> {
+//     resolve('I need to be best in coding')
+// })
+// const p2= new Promise((resolve)=>{
+//     resolve('You must be a milieunoir in the future')
+// });
+// const p3= new Promise((resolve)=>{
+//     resolve('You must not give up')
+// });
+// Promise.all([p1,p2,p3]).then((values)=>
+// {
+//     console.log(values);
+// });
+//////////////another example
+const hasmeeting =false;
+const meeting = new Promise((resolve,reject)=>{
+if(!meeting)
 {
-    console.log(values);
+    const meetingdetail= {
+        name:'CEO',
+        location:'ZOOM',
+        time:'1:00PM'
+
+    }
+    resolve(meetingdetail);
+}
+else{
+    reject(new Error('Meeting is already Done'));
+}
+}) ;
+meeting.then(res => {
+    //here will be the resolve
+    console.log('Meeting scheduled')
+    console.log(res);
+}).catch(err=>{
+    console.log(err.message);
 });
