@@ -339,22 +339,37 @@
 //     console.log(err.message);
 //     console.log('Your fucking late');
 // });
-// const playgame = false;
-// const game= new Promise((resolve,reject)=>{
-//     if (playgame==true){
-//         const intro={
-//             introduction:'Hello Farzam welcome to Love Game'
-//             ,rules:'Try not to fall in Love make your heart stone'
-//             ,End:'Good Luck'
+const playgame = true;
+const game= new Promise((resolve,reject)=>{
+    if (playgame==true){
+        const intro={
+            introduction:'Hello Farzam welcome to Love Game'
+            ,rules:'Try not to fall in Love make your heart stone'
+            ,End:'Good Luck'
             
-//         }
-//         resolve(intro);
-//     }else{
-//         reject(new Error('You Dont fall and play this game OK!'))
-//     };
-// })
-// game.then(res=>{
+        }
+        resolve(intro);
+    }else{
+        reject(new Error('You Dont fall and play this game OK!'))
+    };
+})
+const plus = intro =>{
+    const pluss=`${intro.introduction} we are here to help you ${intro.rules}done and at the end ${intro.end}`;
+    return Promise.resolve(pluss);
+
+}
+
+// game
+// .then(plus)
+// .then(res=>{
 //     console.log(res);
 // }).catch(err=>{
 //     console.log(err.message);
 // })
+async function mygame(){
+const intro = await game;
+const message= await plus (intro);
+console.log(message);
+}
+mygame().catch(err=>console.log(err.message))
+
