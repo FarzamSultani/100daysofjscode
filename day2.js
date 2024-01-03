@@ -339,25 +339,25 @@
 //     console.log(err.message);
 //     console.log('Your fucking late');
 // });
-const playgame = true;
-const game= new Promise((resolve,reject)=>{
-    if (playgame==true){
-        const intro={
-            introduction:'Hello Farzam welcome to Love Game'
-            ,rules:'Try not to fall in Love make your heart stone'
-            ,End:'Good Luck'
+// const playgame = true;
+// const game= new Promise((resolve,reject)=>{
+//     if (playgame==true){
+//         const intro={
+//             introduction:'Hello Farzam welcome to Love Game'
+//             ,rules:'Try not to fall in Love make your heart stone'
+//             ,End:'Good Luck'
             
-        }
-        resolve(intro);
-    }else{
-        reject(new Error('You Dont fall and play this game OK!'))
-    };
-})
-const plus = intro =>{
-    const pluss=`${intro.introduction} we are here to help you ${intro.rules}done and at the end ${intro.end}`;
-    return Promise.resolve(pluss);
+//         }
+//         resolve(intro);
+//     }else{
+//         reject(new Error('You Dont fall and play this game OK!'))
+//     };
+// })
+// const plus = intro =>{
+//     const pluss=`${intro.introduction} we are here to help you ${intro.rules}done and at the end ${intro.end}`;
+//     return Promise.resolve(pluss);
 
-}
+// }
 
 // game
 // .then(plus)
@@ -366,10 +366,43 @@ const plus = intro =>{
 // }).catch(err=>{
 //     console.log(err.message);
 // })
-async function mygame(){
-const intro = await game;
-const message= await plus (intro);
-console.log(message);
+// async function mygame(){
+// const intro = await game;
+// const message= await plus (intro);
+// console.log(message);
+// }
+// mygame().catch(err=>console.log(err.message))
+/////////////////try and catch 
+setTimeout(()=>{
+    console.log("Hacking wifi Please Wait.........");
+},1000)
+setTimeout(()=>{
+    console.log("Getting UserName Please Wait.........")
+},2000)
+setTimeout(()=>{
+    console.log("Getting password Please Wait.........")
+},3000)
+setTimeout(()=>{
+    console.log("Hacking Please Wait.........")
+},4000)
+
+setTimeout(()=>{
+    console.log("Farzam Sultani wifi Please Wait.........")
+},5000)
+setTimeout(()=>{
+    try{
+
+        console.log(dddd)
+   
 }
-mygame().catch(err=>console.log(err.message))
+catch(error){
+console.log('Getting password is failed')
+}
+},6000)
+
+setTimeout(()=>{
+    console.log("Hacking wifi DONE .........")
+},7000)
+
+
 
