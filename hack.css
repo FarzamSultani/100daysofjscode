@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(wall200.jpg);
+}
+legend{
+    font-size: x-large;
+    margin-top: 80px;
+    margin-bottom:100% ;
+    text-shadow: 3px 3px 2px white;
+}
+form{
+    position: relative;
+    bottom:80px;
+    left: 40px;
+    color:red;
+}
+input{
+    color: aliceblue;
+   background-color:black;
+    font-style: italic;
+    margin-top: 10px ;
+    border:none;
+    border-bottom: 1px solid rgb(180, 64, 64);
+}
+input:focus{
+    outline: none;
+    border: 1px ;
+    border-bottom:1px solid rgb(231, 66, 66);
+   
+}
+button{
+    position: relative;
+    bottom: 70px;
+    left: 40px;
+    border: none;
+}
